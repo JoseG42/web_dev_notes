@@ -1,0 +1,135 @@
+<!--
+This is a comment, above is the oppening tag, 
+and bellow is the closing tag.
+-->
+<!-- Name the homepage 'index' so servers can find it easily.-->
+<!-- The doctype tells the browser what version of HTML to use-->
+<!DOCTYPE html>
+<!-- This is HTML5-->
+<!-- The HTML element or root element 
+ every element bellow will be a 'descendant'-->
+ <html lang="en">
+<!-- the 'lang' attribute; specifies the language (english) 
+ of the text content in the element-->
+    <!-- The Head element
+     important meta-data, anything required to render the site
+     not for content that should be displayed in the site-->
+     <head>
+        <!-- The meta element holds information 
+         to help render the site-->
+        <meta charset="UTF-8">
+        <!-- The charset attribute specifies 
+         the character encoding for the HTML document -->
+         <!-- The title element
+         specifies the title of the website
+         displayed in the browser tab-->
+        <title>Form</title>
+     </head>
+    <!-- The Body element
+     is the content of the website such as text, 
+     images, and links that will be displayed to the user-->
+     <body>
+        <!-- H1 through H6 are the header elements -->
+        <h1>
+            Notes
+        </h1>
+        <!-- The paragraph element -->
+        <p>
+            <!-- The strong element makes text bold
+             and marks it as important -->
+            <strong>
+                "HTML boilerplate"
+            </strong>
+            is a term used to describe the basic structure of an HTML document.
+            It includes the 
+            <!-- The emphasis element makes text italic
+             and places emphasis on it -->
+            <em>
+                essential
+            </em>
+            elements that are required to create a valid HTML page.
+            <!-- Here strong and em are sibling elements
+             both children of p 
+             which is itself a child element of body -->
+        </p>
+        <h2>
+            Unordered List
+        </h2>
+        <!-- The unordered list element makes a list 
+         where the order of items doesn't matter-->
+        <ul>
+            <!-- The list item element makes a list item -->
+            <li>
+                This is an unordered list item.
+            </li>
+            <li>
+                This is another unordered list item.
+            </li>
+            <li>
+                Each item is marked with a bullet point.
+            </li>
+        </ul>
+        <h2>
+            Ordered List
+        </h2>
+        <!-- The ordered list element makes a list 
+         where the order of items matters -->
+        <ol>
+            <!-- The list item element makes a list item -->
+            <li>
+                This is an ordered list item.
+            </li>
+            <li>
+                This is another ordered list item.
+            </li>
+            <li>
+                Each item is numbered in order.
+            </li>
+        </ol>
+        <h2>
+            Anchor Element
+        </h2>
+        <!-- The anchor element creates a hyperlink -->
+        <a href = "https://www.example.com" rel="noreferrer">
+            <!-- The href (hypertext reference) attribute specifies 
+             the URL of the link -->
+            This is a link to an external website.
+            <!-- The text inside the tags is what is displayed by the
+             browser -->
+        </a>
+        <h3>
+            Opening links in a new tab
+        </h3>
+        <a href='https://www.nyan.cat' target='_blank' rel="noreferrer">
+            <!-- The target attribute specifies where to open the 
+             linked document The value '_blank' opens the link 
+             in a new tab or window-->
+            This link opens in a new tab.
+        </a>
+        <h3>
+            The rel attribute
+        </h3>
+        <p>
+            The rel attribute specifies the relationship between the 
+            current document and the linked document.
+        </p>
+        <h4>
+            rel attribute values
+        </h4>
+        <ul>
+            <li>
+                noopener: 'Prevents the new page from being able to access the
+                window.opener property, which can help prevent security vulnerabilities.'
+            </li>
+            <li>
+                noreferrer: 'Prevents the browser from sending the HTTP referer header
+                to the new page, which can help protect user privacy.'
+            </li>
+        </ul>
+        <h3>
+            <a href='pages/rel_link.html'>
+                Relative Links
+            </a>
+        </h3>
+     </body>
+</html>
