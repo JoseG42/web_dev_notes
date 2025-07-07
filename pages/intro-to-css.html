@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <h4>
+        <a href="../index.html">
+            Back to Home
+        </a>
+    </h4>
+    <h1>
+        Cascading Style Sheets (CSS)</h1>
+    <p>
+        CSS is rules for styling web pages.
+    </p>
+    <p>
+        A selector is given a list of declarations. 
+        Declarations are separated by semicolons.
+        Each declaration consists of a property and a value, separated by a colon. 
+    </p>
+    <h3>
+        Selectors
+    </h3>
+    <p>
+        Selectors are used to target HTML elements for styling.
+        They can be simple or complex, depending on the specificity needed.
+    </p>
+    <ul>
+        <li>
+            <p>
+                <strong>Universal selector '*'</strong> This will select all elements on the page.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Type selector</strong> This will select all elements of a specific type, such as 'p' for paragraphs or 'h1' for headings.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Class selector</strong> This will select all elements with a specific class.
+            </p>
+            <p>
+                Classes are defined in HTML with the 'class' attribute, and in CSS with a period (.) followed by the class name.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>ID selector</strong> This will select a single element with a specific ID.
+            </p>
+            <p>
+                IDs are defined in HTML with the 'id' attribute, and in CSS with a hash (#) followed by the ID name.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Grouping selector</strong> Group multiple selectors using a comma (,) to apply the same styles to different elements.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Chaining selectors</strong> Chain multiple selectors together by listing them with no spaces, to target specific elements.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Descendant combinator '.x .y'</strong> This will select all elements of type 'y' that are descendants of an element of type 'x'.
+            </p>
+            <p>
+                represented by a space between the two selectors.
+            </p>
+        </li>
+    </ul>
+    <h3>
+        Properties
+    </h3>
+    <p>
+        CSS properties are used to apply styles to elements. Each property has a name and a value, and they are written in a declaration block.
+    </p>
+    <p>
+        Some common CSS properties include:
+    </p>
+    <ul>
+        <li>
+            <p>
+                <strong>Color</strong> Sets the color of text.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Background-color</strong> Sets the background color of an element.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Font-family</strong> Sets the font of text.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Font-size</strong> Sets the size of text.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Font-weight</strong> Sets the weight (boldness) of text.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Text-align</strong> Sets the alignment of text (left, right, center, justify).
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Height</strong> Sets the height of an element.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Width</strong> Sets the width of an element.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Margin</strong> Sets the space outside an element.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Padding</strong> Sets the space inside an element.
+            </p>
+        </li>
+    </ul>
+    <h2>
+        Adding CSS to HTML
+    </h2>
+    <p>
+        CSS can be added to HTML in three ways:
+    </p>
+    <ul>
+        <li>
+            <p>
+                <strong>Inline CSS</strong> This involves adding CSS styles directly to an HTML element using the '< style >' attribute.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Internal CSS</strong> This involves adding a "< style >" element within the '< head >' section of the HTML document.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>External CSS</strong> This involves linking to an external CSS file using a '< link >' element in the '< head >' section.
+            </p>
+        </li>
+    </ul>
+</body>
+</html>
